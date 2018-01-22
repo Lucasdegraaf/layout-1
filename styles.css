@@ -1,0 +1,125 @@
+body {font-family:sans-serif;
+
+
+
+    background-color:rgb(66, 155, 244); }
+
+    nav{background-color: rgb(66, 134, 244);}
+
+
+
+    ul
+
+    {
+      margin:0 auto; max-width:25%;
+       list-style-type: none;
+       margin: 0 auto;
+       padding: 0;
+       overflow: hidden;
+
+   }
+
+   li {
+       float: left;
+   }
+
+   li a {
+
+       display: inline-block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+
+   li a:hover {
+       background-color:Grey;
+   }
+
+
+   .gegevens
+   {
+     margin: 0 auto;
+     width: 400px;
+     text-align: left;
+
+   }
+
+
+h1{font-family:'Pacifico', 'cursive';
+color:white;
+margin: 0 auto;
+width: 250px;
+text-align: left;}
+
+h2{
+font-family:'pacifico', 'cursive';
+color:white;
+margin:0 auto;
+width: 250px;
+text align: left;
+
+
+}
+.clearfix{
+  width: 70px;
+  float: left;
+}
+
+.clearfix1 {
+width: 70px;
+float: right;
+
+}
+
+H4{
+text-align: center;
+color: white;
+}
+
+p{ color: white;
+font-weight: bold;
+}
+
+
+.image{
+background-image: url(rap.jpg);}
+
+.image1{
+  background-image: url(rnb.jpg);}
+.image2{
+background-image: url(rockn.jpg);}
+.image3{
+  background-image: url(country.jpg);
+}
+
+
+.reclame1{float: right;}
+
+.reclame2{float: right; }
+
+
+.flex-container {
+
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 600px;
+margin: 0 auto;
+}
+
+.flex-container>
+
+div {
+  background-color: rgb(66, 134, 244);
+  margin: 2px;
+  width: 600px;
+  height: 200px;
+  font-size: 15px;
+
+}
+
+footer{
+background-color: rgb(66, 134, 244);
+height: 30px;
+  text-align: center;}
